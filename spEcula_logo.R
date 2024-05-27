@@ -18,8 +18,8 @@ sticker(
   p_y = 0.95,
   dpi = 300,
   asp = 1,
-  h_size = .75,
-  h_color = "#3e3221",
+  h_size = 1.25,
+  h_color = ggplot2::alpha("#3e3221",.5),
   h_fill = '#e9f7f9',
   white_around_sticker = F,
   filename = "spEcula_logo.png"
