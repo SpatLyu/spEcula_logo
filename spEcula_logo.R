@@ -31,7 +31,8 @@ image_read('./spEcula_logo.png') |>
 
 specula_logo = image_read('./spEcula_logo.png')
 p = image_read('./logo3.png') |> 
-  image_resize("80x50")
+  image_resize("80x50") |> 
+  image_colorize(opacity = 50, color = "#f8f9f9")
 
 image_composite(specula_logo,p,
                 gravity = "northwest",
